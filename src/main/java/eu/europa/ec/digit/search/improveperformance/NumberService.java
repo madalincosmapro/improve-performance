@@ -53,8 +53,6 @@ public class NumberService {
     	}
     	
     	return sortedDuplicates.stream().findFirst().orElse(null);
-        
-//        throw new UnsupportedOperationException("Not implemented.");
 
     }
 
